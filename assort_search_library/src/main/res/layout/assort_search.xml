@@ -5,7 +5,7 @@
     android:background="@color/light_gray"
     android:orientation="vertical">
 
-    <EditText
+    <bd.com.assort_search_library.views.ClearEditText
         android:id="@+id/search_bar"
         android:layout_width="match_parent"
         android:layout_height="30dp"

@@ -36,7 +36,7 @@ public class AssortSearchView extends FrameLayout {
 
     private View mView;
     private LinearLayout mParent;
-    private EditText mSearchBar;
+    private ClearEditText mSearchBar;
 
     public AssortSearchView(Context context) {
         super(context);
@@ -55,12 +55,12 @@ public class AssortSearchView extends FrameLayout {
 
     public void init() {
         mView = inflate(getContext(), R.layout.assort_search, this);
-        mSearchBar = (EditText) mView.findViewById(R.id.search_bar);
+        mSearchBar = (ClearEditText) mView.findViewById(R.id.search_bar);
         mParent = (LinearLayout) mView.findViewById(R.id.parent);
     }
 
     /*获取搜索框控件，对其进行监听*/
-    public EditText getSearchBar() {
+    public ClearEditText getSearchBar() {
         return this.mSearchBar;
     }
 
