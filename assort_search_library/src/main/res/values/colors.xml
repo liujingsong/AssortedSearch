@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#B3B3B3</color>
+    <color name="search_hint">#acacac</color>
+</resources>
